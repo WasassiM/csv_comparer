@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "csv-compare"
+version = "0.1.0"
+description = "A Python package for comparing CSV files"
+authors = ["Wassim SASSI <wassim.sassi.ws@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pandas = "^2.2.1"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.1.1"
+black = "^24.3.0"
+mkdocs = "^1.5.3"
+flake8 = "^7.0.0"
+pytest-cov = "^5.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
