@@ -67,11 +67,10 @@ jobs:
       # so this line is super-simple. But it could be as complex as you need.
       - run: poetry run pytest --cov=./ --cov-report=xml tests/
 
-      - name: Collect coverage
-        uses: codecov/codecov-action@v2
+      - name: Upload coverage to Codecov
+        uses: codecov/codecov-action@v4
         with:
-          token: ${{ secrets.CODECOV_TOKEN }}
-          version: "v0.1.15"
-          fail_ci_if_error: true
-          files: ./coverage.xml
+          flags: smart-tests
           verbose: true
+        env:
+          CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }}
