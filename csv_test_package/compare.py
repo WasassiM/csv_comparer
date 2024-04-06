@@ -1,4 +1,4 @@
-from csv_compare.csvfile import CSVFile
+from csv_test_package.csvfile import CSVFile
 
 
 def compare(filename1: str, filename2: str) -> bool:
