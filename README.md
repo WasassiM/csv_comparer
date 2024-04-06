@@ -1,0 +1,1 @@
+[![codecov](https://codecov.io/gh/WasassiM/csv_comparer/graph/badge.svg?token=F8AG4KV512)](https://codecov.io/gh/WasassiM/csv_comparer)
