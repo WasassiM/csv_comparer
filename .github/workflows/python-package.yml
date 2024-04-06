@@ -68,9 +68,10 @@ jobs:
       - run: poetry run pytest --cov=./ --cov-report=xml tests/
 
       - name: Collect coverage
-        uses: codecov/codecov-action@v3
+        uses: codecov/codecov-action@v2
         with:
           token: ${{ secrets.CODECOV_TOKEN }}
+          version: "v0.1.15"
           fail_ci_if_error: true
           files: ./coverage.xml
           verbose: true
