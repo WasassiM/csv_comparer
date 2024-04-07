@@ -1,6 +1,6 @@
 import os
 import pytest
-from csv_compare.csvfile import CSVFile
+from csv_test_package.csvfile import CSVFile
 
 
 def test_no_file():

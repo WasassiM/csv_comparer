@@ -1,7 +1,7 @@
 import os
 import pytest
 
-from csv_compare.compare import compare
+from csv_test_package.compare import compare
 
 
 filename1 = os.path.join(os.getcwd(), "tests", "test_files", "file1.csv")

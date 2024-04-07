@@ -12,3 +12,9 @@ test_compare:
 
 test_coverage:
 	poetry run pytest --cov=csv_compare --cov-report=html
+
+build:
+	poetry build
+
+publish:
+	poetry publish
