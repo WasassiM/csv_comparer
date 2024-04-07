@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "csv_test_package"
-version = "0.1.4"
+version = "0.1.5"
 description = "A Python package for comparing CSV files"
 authors = ["Wassim SASSI <wassim.sassi.ws@gmail.com>"]
 readme = "README.md"
